@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+width: 70%;
+width: 1100px;
+margin: 0 auto;
+border: 1px solid black;
+}
+header{
+    background-image:url( men.jpg );
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 101.7%;
+    margin:0 auto ;
+    padding: 0;
+    overflow: hidden;
+}
+nav{
+    background: lightblue;
+    height: 50px;
+    border-bottom:  1px dashed black;
+}
+nav ul li{
+float: left;
+list-style: none;
+margin: 10px;
+line-height: 30px;
+}
+#content{
+    float: left;
+    width:calc( 100% - 100px );
+    min-height: 500px;
+    padding: 60px;
+    margin: auto;
+    background-image:url( escudotajumi1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.article{
+    color: rgb(10, 9, 9);
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.article:first-child img{
+    width: 500px;
+    height: 100%;
+    opacity: 0.2;
+    display: block;
+    text-align: center;
+}
+article h2{
+    font-size: 25px;
+}
+aside{
+    float: left;
+    width: 100%;
+    min-height: 10px; ;
+    background: orange;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: center;
+    overflow-y: auto;
+}
+footer{
+    float: left;
+    width: 100%;
+    min-height: 1px; 
+    background-color: black;
+    background:  rgb(12, 230, 30);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
